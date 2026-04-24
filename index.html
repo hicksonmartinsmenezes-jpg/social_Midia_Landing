@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Agência especializada em marketing digital e tráfego pago. Resultados reais para seu negócio.">
+    <title>MM - Marketing Digital e Tráfego Pago</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- ==================== HEADER ==================== -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-dourado">✦ </span>MM SOCIAL MEDIA
+            </div>
+            <ul class="nav-links">
+                <li><a href="../HTML/index.html">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#cases">Cases</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+           <button class="mobile-menu" aria-label="Abrir menu">
+☰
+</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== HERO SECTION ==================== -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-badge">
+                    <span class="badge-dourado"> Especialistas em Resultados</span>
+                </div>
+                <h1>Seu negócio merece <span class="destaque-dourado">resultados reais</span></h1>
+                <p>Estratégias personalizadas de marketing digital e Gestão de Tráfego pago que transformam cliques em clientes</p>
+                <div class="hero-buttons">
+                    <button class="cta-button-primary" onclick="scrollToContact()">Quero resultados</button>
+                    <button class="cta-button-secondary" onclick="scrollToServices()">Conhecer serviços</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">###</span>
+                        <span class="stat-label">Clientes atendidos</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">###</span>
+                        <span class="stat-label">Satisfação</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">###</span>
+                        <span class="stat-label">Em vendas geradas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SERVIÇOS COM CARROSSEL ==================== -->
+        <section id="servicos" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">O que fazemos</span>
+                    <h2 class="section-title">Soluções que <span class="destaque-dourado">impulsionam</span> seu negócio</h2>
+                    <p class="section-subtitle">Transforme seu negócio com as nossas artes!
+Crie experiências inesquecíveis para seus
+clientes e veja seus resultados decolarem.</p>
+                </div>
+                
+                <!-- Carrossel de Serviços -->
+                <div class="services-carousel-container">
+                    <button class="carousel-nav carousel-prev" aria-label="Anterior">❮</button>
+                    <div class="services-carousel">
+                        <div class="services-track">
+                            <div class="service-card">
+                                <div class="service-icon"></div>
+                                <h3>Tráfego Pago</h3>
+                                <p>Campanhas otimizadas no Google, Meta e TikTok com foco em ROI</p>
+                                <a href="../HTML/Trafégo_pago.html" class="service-link">Saiba mais →</a>
+                            </div>
+                            <div class="service-card">
+                                <div class="service-icon"></div>
+                                <h3>Marketing de Performance</h3>
+                                <p>Estratégias data-driven para maximizar cada real investido</p>
+                                <a href="#" class="service-link">Saiba mais →</a>
+                            </div>
+                            <div class="service-card">
+                                <div class="service-icon"></div>
+                                <h3>Social Media</h3>
+                                <p>Gestão estratégica de redes sociais com conteúdo de alto valor</p>
+                                <a href="#" class="service-link">Saiba mais →</a>
+                            </div>
+                            <div class="service-card">
+                                <div class="service-icon"></div>
+                                <h3>SEO Avançado</h3>
+                                <p>Posicione seu negócio no topo do Google com autoridade</p>
+                                <a href="#" class="service-link">Saiba mais →</a>
+                            </div>
+                            <div class="service-card">
+                                <div class="service-icon"></div>
+                                <h3>Email Marketing</h3>
+                                <p>Automações e nutrição que convertem leads em clientes</p>
+                                <a href="#" class="service-link">Saiba mais →</a>
+                            </div>
+                            <div class="service-card">
+                                <div class="service-icon"></div>
+                                <h3>Consultoria Estratégica</h3>
+                                <p>Análise completa do seu funil e planejamento de crescimento</p>
+                                <a href="#" class="service-link">Saiba mais →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-nav carousel-next" aria-label="Próximo">❯</button>
+                </div>
+                
+                <!-- Indicadores do Carrossel -->
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <!-- ==================== CASES DE SUCESSO ==================== -->
+        <section id="cases" class="cases">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Cases reais</span>
+                    <h2 class="section-title">Resultados que <span class="destaque-dourado">comprovam</span> nossa expertise</h2>
+                    <p class="section-subtitle">Números que falam por si só</p>
+                </div>
+                <div class="cases-grid">
+                    <div class="case-card">
+                        <div class="case-icon"></div>
+                        <div class="case-info">
+                            <h3>E-commerce de Moda</h3>
+                            <p>Estratégia multicanal com Google Shopping + Meta Ads</p>
+                            <div class="case-result">
+                                <span class="result-number">+ ###%</span>
+                                <span class="result-label">aumento em vendas</span>
+                            </div>
+                            <div class="case-metrics">
+                                <span>ROI: ###</span>
+                                <span>CPA: ###</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-card">
+                        <div class="case-icon"></div>
+                        <div class="case-info">
+                            <h3>Clínica Odontológica</h3>
+                            <p>Captação de pacientes via Google Ads e remarketing</p>
+                            <div class="case-result">
+                                <span class="result-number">###</span>
+                                <span class="result-label">novos pacientes/mês</span>
+                            </div>
+                            <div class="case-metrics">
+                                <span>CAC: R$###</span>
+                                <span>Ticket: R$ ###</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-card">
+                        <div class="case-icon"></div>
+                        <div class="case-info">
+                            <h3>Grupo de Restaurantes</h3>
+                            <p>Campanhas de delivery com geolocalização precisa</p>
+                            <div class="case-result">
+                                <span class="result-number">+ ###%</span>
+                                <span class="result-label">pedidos online</span>
+                            </div>
+                            <div class="case-metrics">
+                                <span>ROAS:###</span>
+                                <span>Frequência: ###</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== DEPOIMENTOS ==================== -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Depoimentos</span>
+                    <h2 class="section-title">Quem confia no <span class="destaque-dourado">nosso trabalho</span></h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">A Domínio Digital transformou completamente nossa estratégia digital. Em 6 meses, triplicamos nosso faturamento com um ROI impressionante.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <strong>Ana Beatriz</strong>
+                                <span>CEO - Moda Livre</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">Equipe extremamente competente e transparente. Os relatórios são detalhados e as estratégias sempre superam as expectativas.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <strong>Ricardo Mendes</strong>
+                                <span>Sócio - OdontoPrime</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">Melhor agência com que já trabalhamos. O time entendeu rapidamente nosso negócio e os resultados vieram muito rápido.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <strong>Camila Torres</strong>
+                                <span>Marketing - Grupo Sabor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTATO ==================== -->
+        <section id="contato" class="contact">
+            <div class="contact-container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <span class="section-tag light">Vamos conversar</span>
+                        <h2>Pronto para <span class="destaque-dourado">decolar</span> seus resultados?</h2>
+                        
+                        <p>Solicite um diagnóstico gratuito e descubra as oportunidades que seu negócio está perdendo.</p>
+                        
+                        <div class="contact-details">
+
+                            <div class="contact-item">
+                                <span><i class="fa-brands fa-whatsapp"></i></span>
+                                <div class="telefone-click">
+                                    <strong>Telefone</strong>
+                                    <a style="text-decoration: none;" href="https://api.whatsapp.com/send/?phone=5579998138182&text&type=phone_number&app_absent=0&utm_source=ig"> <p class="link-click"> (79) 99813-8182</p></a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span> <i class="fa-solid fa-envelope"></i></span>
+                                <div>
+                                    <strong>E-mail</strong>
+                                    <a style="text-decoration: none;" href="mailto:contato@dominiodigital.com?subject=Quero%20mais%20informações"> <p class="link-click"> ###########</p></a>
+                                   
+                                </div>
+                            </div>
+
+
+                             <div class="contact-item">
+                                 <i class="fa-brands fa-threads" ></i>
+                                <div>
+                                    <strong>threads</strong>
+                                    <a style="text-decoration: none;" href="https://www.threads.com/@mmsocialmediaof?xmt=AQF0RKUkJumK1eLBVpPT4HD2fEcLlvU_IyE7PnEb8QxMnLs"><p class="link-click">@mmsocialmediaof</p></a>
+                                </div>
+                            </div>
+
+                            
+
+
+                            
+
+
+                            
+                           
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <h3>O que está pensando?</h3>
+                            <div class="form-group">
+                                <input type="text" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Seu melhor e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" placeholder="WhatsApp">
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Conte sobre seu projeto ou objetivo"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Enviar mensagem →</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo + descrição -->
+        <div class="footer-column">
+            <h3 class="footer-logo">
+                MM <span class="dourado">SOCIAL MEDIA</span>
+            </h3>
+            <p>
+                Transformamos negócios com estratégias de marketing digital
+                orientadas a resultados e crescimento real.
+            </p>
+
+            <div class="footer-social">
+                <a href="#">🌐</a>
+                <a href="#">📱</a>
+                <a href="#">💼</a>
+            </div>
+        </div>
+
+        <!-- Serviços -->
+        <div class="footer-column">
+            <h4>Serviços</h4>
+            <ul>
+                <li><a href="../HTML/Trafégo_pago.html">Tráfego Pago</a></li>
+                <li><a href="#">Social Media</a></li>
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">Email Marketing</a></li>
+            </ul>
+        </div>
+
+        <!-- Empresa -->
+        <div class="footer-column">
+            <h4>Empresa</h4>
+            <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Cases</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Carreiras</a></li>
+            </ul>
+        </div>
+
+        <!-- Legal -->
+        <div class="footer-column">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="../HTML/Politicas de Privacidade.html">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MM Social Media — Todos os direitos reservados</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
